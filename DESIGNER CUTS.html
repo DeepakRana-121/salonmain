@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DESIGNER CUTS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f665390b3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="jQuery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".header_button").click(function () {
+          $(".header").toggle(100);
+        });
+      });
+    </script>
+    <style>
+      ul li {
+        display: inline;
+      }
+      /*************data here**/
+      .image_container_fixed {
+        height: 25vh;
+        background-color: aquamarine;
+        background-image: url(img/1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+      }
+      .seperation {
+        min-height: 100vh;
+        line-height: 2;
+      }
+      .twentytext {
+        font-size: 22px;
+        padding: 1.5% 5% 0% 0%;
+      }
+      .seperation ul {
+        padding: 0px 0px 5% 0px;
+        margin-top: 40px;
+      }
+      .seperation ul li {
+        display: block;
+        font-size: 24px;
+      }
+      .padding_textting {
+        padding: 5% 0%;
+      }
+      .lower_data_para {
+        min-height: 50vh;
+        font-size: 25px;
+        padding: 5% 15%;
+        text-align: center;
+      }
+      /*********footer start *********/
+      .footer {
+        min-height: 90vh;
+        padding-bottom: 5%;
+      }
+      .footer i {
+        color: white;
+        font-size: 25px;
+      }
+      #footer_padding_para {
+        padding: 0% 22%;
+        text-align: justify;
+      }
+      #padding_ul {
+        padding: 5% 0% 0% 0%;
+        font-weight: 700;
+        color: white;
+      }
+      #padding_ul li a {
+        color: white;
+      }
+      /***********displays classes edit********/
+      .display1 {
+        font-size: 70px;
+      }
+      .display2 {
+        font-size: 60px;
+      }
+      .display3 {
+        font-size: 50px;
+      }
+      .display4 {
+        font-size: 40px;
+      }
+      @media (max-width: 1400px) {
+        .display1 {
+          font-size: 52px;
+        }
+        .display2 {
+          font-size: 48px;
+        }
+        .display3 {
+          font-size: 42px;
+        }
+        .display4 {
+          font-size: 38px;
+        }
+        .header {
+          height: 100vh;
+          width: 100%;
+          background-color: black;
+          flex-direction: column;
+          padding-top: 5%;
+          font-size: 40px;
+          display: none;
+        }
+        .header ul li {
+          display: block;
+        }
+        .first_container {
+          height: auto;
+          width: 100%;
+        }
+        .second_container {
+          width: 100%;
+          text-align: center;
+          display: none;
+          height: auto;
+        }
+        .third_container {
+          width: 100%;
+          height: auto;
+        }
+        .header ul li a {
+          color: white;
+        }
+        .second_container {
+          color: white;
+        }
+        .header_button {
+          display: block;
+        }
+      }
+      @media (max-width: 800px) {
+        .footer {
+          padding: 15% 0% 0% 0%;
+          min-height: 80vh;
+          margin-top: 5%;
+        }
+        #footer_padding_para {
+          padding: 0% 8%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!----------------header start-->
+    <section class="container-fluid">
+      <section class="row">
+        <section class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+              <h1>SALON <span>W</span></h1></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="OUR TEAM.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CAREER.html">CAREER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="TERMS AND POLOCIES.html"
+                    >TERMS AND POLOCIES</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="WEDDINGS.html">WEDDINGS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    SERVICES
+                  </a>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <a class="dropdown-item" href="DESIGNER CUTS.html"
+                      >DESIGNER CUTS</a
+                    >
+                    <a class="dropdown-item" href="HAIR COLOR.html"
+                      >HAIR COLOR</a
+                    >
+                    <a class="dropdown-item" href="STYLINGUPDOS.html"
+                      >STYLING & UPDOS</a
+                    >
+                    <a class="dropdown-item" href="DEEP CONDITIONING.html"
+                      >DEEP CONDITIONING</a
+                    >
+                    <a class="dropdown-item" href="TEXTURE TREATMENTS.html"
+                      >TEXTURE TREATMENTS</a
+                    >
+                    <a class="dropdown-item" href="HAIR EXTENSIONS.html"
+                      >HAIR EXTENSIONS</a
+                    >
+                    <a class="dropdown-item" href="SPA SERVICES.html"
+                      >SPA SERVICES</a
+                    >
+                    <a class="dropdown-item" href="GALLERY.html">GALLERY</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </section>
+      </section>
+    </section>
+    <!------------------data here--------------->
+    <section class="image_container_fixed"></section>
+    <section class="container-fluid">
+      <section class="row seperation">
+        <section class="col-xl-10 mx-auto">
+          <section class="container-fluid">
+            <section class="row padding_textting">
+              <section class="col-xl-8 col-lg-8 col-md-12">
+                  <p class="display-4">Designer Hair Cuts</p>
+                  <p class="twentytext">
+                    Our stylists are trained in a wide variety of skills and
+                    techniques. Our continuing education program ensures our
+                    entire team is constantly up-to-date on trends in the U.S. and
+                    around the world.
+                  </p>
+                  <p class="twentytext">
+                    Listed below are the starting prices for our Novice Designers.
+                    For more details about our pricing, read our terms and
+                    policies.
+                  </p>
+                  <ul>
+                    <li>For Men - $26+</li>
+                    <li>For Women - $40+</li>
+                    <li>For Children, 10 and under- $20+</li>
+                    <li>DevaCuts - $95</li>
+                    <li>Hydrating Cuts- $58+</li>
+                  </ul>
+              </section>
+              <section class="col-xl-4 col-lg-4 col-md-12">
+                <p class="twentytext">Schedule a haircut.</p>
+                <p>
+                  Book an appointment online today, or contact our staff with
+                  any questions about the professional cuts available at Salon
+                  W.
+                </p>
+                <button type="button" class="btn btn-dark">BOOK NOW</button>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+    <hr />
+    <section class="container-fluid">
+      <section class="row lower_data_para">
+        <section class="col">
+          <p>
+            “Ashley is professional, stylish, and EXPERIENCED! Not only is she
+            able to be honest with her customers about what will look flattering
+            and what will not benefit them, she is also very caring with her
+            answers. She always goes out of her way to make you feel
+            comfortable.”
+          </p>
+          <p>— A SATISFIED SALON W CUSTOMER</p>
+        </section>
+      </section>
+    </section>
+    <!---------------footer start-->
+    <section class="container-fluid text-center text-white bg-dark">
+      <section class="row footer">
+        <section class="col">
+          <ul id="padding_ul">
+            <li><a href="#">ABOUT</a></li>
+            &nbsp; &nbsp;
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <img src="img/footer.png" width="60%" alt="" />
+          <p id="footer_padding_para">
+            It is our mission at Salon W to provide our guests with the highest
+            degree of customer service in a professional and unique setting. We
+            are committed to performing our crafts exceptionally well and
+            continually strive to improve ourselves in the areas of education,
+            both within the salon and in the community. We continually search
+            the industry market place for the newest technology and finest in
+            hair care and skin care products, to provide our clients with the
+            utmost luxury experience. Best in Oklahoma City--period.
+          </p>
+          <p>(405) 608-0692 • 9501 N. May Ave, Oklahoma City, OK 73120</p>
+          <button type="button" class="btn text-white btn-outline-light my-5">
+            BOOK NOW
+          </button>
+          <ul class="text-white">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            &nbsp; &nbsp;
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
